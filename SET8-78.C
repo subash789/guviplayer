@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int n,s1[10],i,d=0,r,j,t=0;
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
+    int M,s1[10],i,d=0,r,j,t=0;
+    scanf("%d",&M);
+    for(i=0;i<M;i++)
     {
         scanf("%d",&s1[i]);
     }
-    for(i=0;i<n;i++)
+    for(i=0;i<M;i++)
     {
-        for(j=i+1;j<n;j++)
+        for(j=i+1;j<M;j++)
         {
             if(s1[i]>s1[j])
             {
