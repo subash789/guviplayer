@@ -1,7 +1,7 @@
 n=int(input())
-s=sorted('kabali')
+ss=sorted('kabali')
 c=0
 for i in range(n):
-    if s==sorted(input("Enter input")):
+    if ss==sorted(input("Enter input")):
         c+=1
 print(c)
