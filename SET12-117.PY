@@ -1,2 +1,2 @@
-s=input()
-print('-'.join(reversed(s)))
+ss=input()
+print('-'.join(reversed(ss)))
